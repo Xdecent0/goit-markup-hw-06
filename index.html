@@ -99,6 +99,80 @@
                 <use href="./images/logo/symbol-defs.svg#icon-close"></use>
               </svg>
             </button>
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+
+            <form class="modal-form" autocomplete="off">
+              <ul class="modal-list-form">
+                <li class="modal-field-item">
+                  <input
+                    class="textfield"
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder=" "
+                  />
+                  <label class="form-label" for="name">Имя</label>
+                  <svg class="form-icon" width="18" height="18">
+                    <use
+                      href="./images/logo/symbol-defs.svg#icon-person-black"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="modal-field-item">
+                  <input
+                    class="textfield"
+                    type="tel"
+                    name="tel"
+                    id="tel"
+                    placeholder=" "
+                  />
+                  <label class="form-label" for="tel">Телефон</label>
+                  <svg class="form-icon" width="18" height="18">
+                    <use
+                      href="./images/logo/symbol-defs.svg#icon-phone-black"
+                    ></use>
+                  </svg>
+                </li>
+                <li class="modal-field-item">
+                  <input
+                    class="textfield"
+                    type="email"
+                    name="email"
+                    id="mail"
+                    placeholder=" "
+                  />
+                  <label class="form-label" for="mail">Почта</label>
+                  <svg class="form-icon" width="18" height="18">
+                    <use
+                      href="./images/logo/symbol-defs.svg#icon-email-black"
+                    ></use>
+                  </svg>
+                </li>
+                <div class="comment-field">
+                  <textarea
+                    class="comment"
+                    name="comment"
+                    id="comment"
+                    rows="8"
+                    placeholder=" "
+                  ></textarea>
+                  <label class="comment-label" for="comment">Комментарий</label>
+                </div>
+              </ul>
+
+              <label class="modal-consent">
+                <input class="modal-checkbox" type="checkbox" name="policy" />
+                <span class="checkbox-icon"></span>
+                <span
+                  >Соглашаюсь с рассылкой и принимаю
+                  <a class="modal-link-consent" href="#">
+                    Условия договора</a
+                  ></span
+                >
+              </label>
+
+              <button class="link-button" type="submit">Отправить</button>
+            </form>
           </div>
         </div>
       </section>
@@ -528,6 +602,22 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="form-subscribe">
+          <p class="input-label light">Подпишитесь на рассылку</p>
+
+          <form class="modal-form" autocomplete="off">
+            <div class="footer-form">
+              <label for="mail"></label>
+              <input type="email" name="email" id="mail" placeholder="E-mail" />
+              <button class="link-button" type="submit">
+                Подписаться
+                <svg class="subscribe-icon" width="24" height="24">
+                  <use href="./images/logo/symbol-defs.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
