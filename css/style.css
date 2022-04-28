@@ -642,6 +642,8 @@ button:focus {
 
 .modal-close-icon {
     fill: var(--icon-close-color);
+    width: 100%;
+    height: 100%;
 }
 
 .backdrop.is-hidden .data-modal {
@@ -860,7 +862,7 @@ cursor: pointer;
 
 .comment-field {
     position: relative;
-
+    height: 140px;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
